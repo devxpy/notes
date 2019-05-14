@@ -39,7 +39,7 @@
 
 # config management
 
-concerned with politcie, process and tools for managing software systems
+concerned with policies, process and tools for managing software systems
 
 1. change management
     - track software change requests
