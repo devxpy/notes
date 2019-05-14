@@ -144,7 +144,7 @@ because proto generally:
 
 1. incremental planning
     - story cards or developmental tasks
-    - choose cards based on time avail.
+    - choose cards based on time availability.
 2. small releases
     - minimal functionality that produce bussinuess value
 3. simple design
@@ -152,7 +152,7 @@ because proto generally:
 4. write tests before implementation
 5. pair programing
 6. collective ownership
-7. CI
+7. continuous integration..
     - integrate code into system frequently
 8. sustainable pace
     - no large overtime
