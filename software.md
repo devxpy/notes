@@ -4,7 +4,7 @@
 -   in practise, broader organizational, economic, political and bussinuess
     considerations are taken into account
 
-### facotrs
+### factors
 
 1. market opportunity
     - quote lower price to enter new segment
@@ -23,19 +23,55 @@
 
 # version management
 
--   version and release identification
--   storage management
--   change history recording
--   independent development
--   project support
+1. version and release identification
+    - version tags
+    - consistent naming
+    - attributes with versions (mobile, smallscreen etc.)
+2. storage management
+    - efficient storage of changes
+3. change history recording
+4. independent development
+    - keeps track of components
+    - changes made to components by different developers don't interfere
+5. project support
+    - development of several projects which share components
+    - check-in/out all files associated with projects at once
 
 # config management
 
+concerned with politcie, process and tools for managing software systems
+
+1. change management
+    - track software change requests
+    - decide when change should be implemneted
+2. version management
+    - keep track of multiple versions
+    - components from different developers don't interfere
+3. system builing
+4. release managemen
+
 # system building
+
+-   create complete executable by compiling, linking the system components,
+    external libs, config files, build tools and version management tools.
+-   tools must communicate as build process involves checking out source code from vcs
+
+### features
+
+1. build script generation
+    - should also support manual creation
+2. version management system integration
+    - checkout required version from vcs
+3. minimal recompilation
+4. executable creation
+    - compiled object files
+5. testing automation
+6. error reporting
+7. documentation generation
 
 # release planning
 
-### facotrs
+### factors
 
 1. technical quality
     - serious fault
